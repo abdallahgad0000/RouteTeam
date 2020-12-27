@@ -3,3 +3,51 @@ body
     font-family: 'segoe ui light';
 }
 
+/* ______start header and nav________  */
+
+header
+{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;  
+}
+.navbar-dark .navbar-nav .nav-link
+{
+    color: #fff;
+}
+.my-defolio
+{
+    font-size: 26px;
+    font-weight: 600;
+}
+.min-a
+{
+    font-weight: 600; 
+}
+.layer
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+header h1
+{
+    font-size: 72px;
+}
+header h2
+{
+    font-size: 40px;
+    font-weight: 400; 
+    position: relative;
+}
+header h2::after
+{
+    content: "";
+    background-color: #fff;
+    width: 3px;
+    height: 100%;
+    position: absolute;
+    margin-left: 3px;
+}
+/* ______end header and nav________  */
