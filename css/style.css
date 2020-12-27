@@ -51,3 +51,32 @@ header h2::after
     margin-left: 3px;
 }
 /* ______end header and nav________  */
+.about .container .content .colored{
+    color: #e65f78 ;
+}
+.about .container .content p{
+    color: #6c757d;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.about .container .content .icons .icon a{
+    color:#000;
+    transition: all 1s;
+}
+.about .container .content .icons .icon{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 2px solid #dee2e6;
+    margin: 0 5px;
+    transition: all 1s;
+}
+.about .container .content .icons .icon:hover{
+    border-radius: 50%;
+    border: 2px solid #e65f78 ;
+}
+.about .container .content .icons .icon:hover a{
+    color: #e65f78 ;  
+   
+}
