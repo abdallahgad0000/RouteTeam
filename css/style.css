@@ -4,6 +4,7 @@
   background-size: cover;
 }
 
+<<<<<<< HEAD
 #galleryHeader .headeroverlay {
   background-color: #00000054;
 }
@@ -198,3 +199,82 @@ img {
   }
 }
 /*# sourceMappingURL=style.css.map */
+=======
+/* ______start header and nav________  */
+
+header
+{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;  
+}
+.navbar-dark .navbar-nav .nav-link
+{
+    color: #fff;
+}
+.my-defolio
+{
+    font-size: 26px;
+    font-weight: 600;
+}
+.min-a
+{
+    font-weight: 600; 
+}
+.layer
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+header h1
+{
+    font-size: 72px;
+}
+header h2
+{
+    font-size: 40px;
+    font-weight: 400; 
+    position: relative;
+}
+header h2::after
+{
+    content: "";
+    background-color: #fff;
+    width: 3px;
+    height: 100%;
+    position: absolute;
+    margin-left: 3px;
+}
+/* ______end header and nav________  */
+.about .container .content .colored{
+    color: #e65f78 ;
+}
+.about .container .content p{
+    color: #6c757d;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.about .container .content .icons .icon a{
+    color:#000;
+    transition: all 1s;
+}
+.about .container .content .icons .icon{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: 2px solid #dee2e6;
+    margin: 0 5px;
+    transition: all 1s;
+}
+.about .container .content .icons .icon:hover{
+    border-radius: 50%;
+    border: 2px solid #e65f78 ;
+}
+.about .container .content .icons .icon:hover a{
+    color: #e65f78 ;  
+   
+}
+>>>>>>> 4095f860e47539f0604c7a07ef04bd2ba7e8ef0e
